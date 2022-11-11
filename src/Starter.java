@@ -5,9 +5,10 @@ public class Starter {
             myBook.createRecord(new Record(90000));
             myBook.createRecord(new Record(90001, "89829381506", "Никита Ю"));
             myBook.createRecord(new Record(90002, "89529381507", "Alina К"));
+            myBook.createRecord(new Record(90005, "89059274003", "Никита Юдачев"));
             myBook.createRecord(new Record(90003, "89529381508"));
             myBook.createRecord(new Record(90004, "Sveta К"));
-            myBook.createRecord(new Record(90005, "89059274003", "Никита Юдачев"));
+
 
         } catch (PhoneNumberAlreadyExists e) {
             System.out.print(e.getMessage());

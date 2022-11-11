@@ -1,7 +1,7 @@
 class Record {
-    public long id;
-    public String phoneNumber;
-    public String name;
+    private long id;
+    private String phoneNumber;
+    private String name;
 
     public Record(long id, String phoneNumber, String name) {
         this.id = id;
