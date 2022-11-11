@@ -1,8 +1,12 @@
 public class RecordNotFound extends RuntimeException {
-    long iD;
-    public long getId(){return this.iD;}
+    private long iD;
+
+    public long getId() {
+        return this.iD;
+    }
+
     public RecordNotFound(String message, long id) {
-        super(message);
+        super(message + id);
         this.iD = id;
     }
 }
